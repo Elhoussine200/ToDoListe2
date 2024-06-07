@@ -71,27 +71,15 @@ ul li {
     position: relative;
 }
 
-ul li::before{
-    content: '';
-    position: absolute;
-    height: 19px;
-    width: 22px;
-    border-radius: 50%;
-    background-image: url(img/unchecked-10.png);
-    background-size:cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
-}
 
 ul li.checked{
 color:#555 ;
 text-decoration: line-through;
 }
-ul li.checked::before{
-    background-image: url(img/check_5610944.png);
-
+.mr-1{
+    margin-right: 1rem;
 }
+
 ul li span{
     position: absolute;
     right: 0;
