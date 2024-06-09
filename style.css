@@ -72,15 +72,17 @@ ul li {
 }
 
 
-ul li.checked{
-color:#555 ;
-text-decoration: line-through;
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
 }
-.mr-1{
+
+.mr-1 {
     margin-right: 1rem;
 }
 
-ul li span{
+
+ul li span {
     position: absolute;
     right: 0;
     top: 5px;
@@ -92,6 +94,10 @@ ul li span{
     text-align: center;
     border-radius: 50%;
 }
-ul li span:hover{
-background: #edeef0;
+
+ul li span:hover {
+    background: #edeef0;
+}
+.deleteBtn{
+    font-size: small;
 }
